@@ -645,6 +645,7 @@
             </activation>
             <modules>
                 <module>bundles/osgi</module>
+                <module>bundles/se-osgi</module>
             </modules>
         </profile>
     </profiles>
