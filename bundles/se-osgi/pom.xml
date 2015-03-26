@@ -58,17 +58,29 @@
                 <configuration>
                     <instructions>
                         <Embed-Dependency>*; scope=provided; inline=true</Embed-Dependency>
-                        <!--<Export-Package>-->
                         <_exportcontents>
                             <!--Weld API and SPI--> 
                             org.jboss.weld.*.api.*;
                             org.jboss.weld.*.spi.*;
                             
                             org.jboss.weld.environment.se;
+                            org.jboss.weld;
+                            org.jboss.weld.bean;
+                            org.jboss.weld.bean.builtin;
+                            org.jboss.weld.bean.proxy;
                             org.jboss.weld.bootstrap;
+                            org.jboss.weld.context;
+                            org.jboss.weld.ejb;
+                            org.jboss.weld.el;
+                            org.jboss.weld.event;
+                            org.jboss.weld.injection;
+                            org.jboss.weld.interceptor.proxy;
+                            org.jboss.weld.jsf;
                             org.jboss.weld.manager;
+                            org.jboss.weld.servlet;
+                            org.jboss.weld.util;
+                            org.jboss.weld.security;
                             version=${osgi.version}
-                             <!--                        </Export-Package>-->
                          </_exportcontents>
 
                         <!--                        <_exportcontents>
